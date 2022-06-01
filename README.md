@@ -26,7 +26,7 @@ script who written like this. Then I added some functions for my purpose.
 <hr />
 <h3>How to run LiveChat APP on localhost</h3>
 <ul>
-  <li><b>First</b> you have to install any php server. (I used XAMP)</li>
+  <li><b>First</b> you have to install any Apache server. (I used XAMP)</li>
   <li><b>Second</b> open web browser and type localhost in the address bar</li>
   <li><b>Third</b> You can see Login interface</li>
   <li><b>Do your changes !!!</b></li>
