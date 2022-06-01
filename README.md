@@ -27,7 +27,7 @@ log.html file will be cleared
 </dd>
 </dl>
 <hr />
-<h3>How to run LiveChat APP on localhost</h3>
+<h3>How to run LiveChat APP on localhost ?</h3>
 <ul>
   <li><b>First</b> you have to install any Apache server. (I used XAMP)</li>
   <li><b>Second</b> open web browser and type localhost in the address bar</li>
