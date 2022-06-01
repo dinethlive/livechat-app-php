@@ -12,17 +12,20 @@ script who written like this. Then I added some functions for my purpose.
 
 <h3>How Live Chat App Works ?</h3>
 <p>I mention main files with their functions down below</p>
-<h4><b>index.php</b></h4>
-<p>This is main file. You can see main template available on this file</p>
-<h4><b>log.html</b></h4>
-<p>Every messages save on this file</p>
-<h4><b>post.php</b></h4>
-<p>This file post user messages on log.html file. (including time)</p>
-<h4><b>clear.php</b></h4>
-<p>
-  This one works like DELETE ALL message function. If user hit clear button ,
-  log.html file will be cleared
+<dl>
+	<dt><h4><b>index.php</b></h4></dt>
+	<dd><p>This is main file. You can see main template available on this file</p></dd>
+    	<dt><h4><b>log.html</b></h4></dt>
+    	<dd><p>Every messages save on this file</p></dd>
+    		<dt><h4><b>post.php</b></h4></dt>
+    		<dd><p>This file post user messages on log.html file. (including time)</p></dd>
+    		<dt><h4><b>clear.php</b></h4></dt>
+    		<dd><p>
+This one works like DELETE ALL message function. If user hit clear button ,
+log.html file will be cleared
 </p>
+</dd>
+</dl>
 <hr />
 <h3>How to run LiveChat APP on localhost</h3>
 <ul>
