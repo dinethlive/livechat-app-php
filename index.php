@@ -69,8 +69,13 @@ if (isset ( $_GET ['logout'] )) {
 	</div>
 <form name="message" action="">
 	<input name="usermsg" class="form-control" type="text" id="usermsg" placeholder="Create A Message" />
-	<input name="submitmsg" class="btn btn-warning btn-block" type="submit" id="submitmsg" value="Send" />
-    <a class="btn btn-danger btn-block" href="clear.php" role="button">CLEAR</a>
+    <!-- SEND MESSAGE -->
+	<!-- <input name="submitmsg" class="btn btn-warning btn-block" type="submit" id="submitmsg" value="Send" /> -->
+	<input name="submitmsg" class="btn btn-warning" type="submit" id="submitmsg" value="SEND" />
+    <!-- CLEAR MESSAGE -->
+    <!-- <a class="btn btn-danger btn-block" href="clear.php" role="button">CLEAR</a> -->
+    <a class="btn btn-danger" href="clear.php" role="button" id="clearmsg">CLEAR</a>
+    
 
 </form>
 </div>

@@ -1,64 +1,107 @@
 body {
-    font:12px arial;
-    color: #222;
-    text-align:center;
-    padding:0;
-    height: 100%;
-     }
-  
-form, p, span {
-    margin:0;
-    padding:0; }
-  
-input { font:12px arial; }
-  
-a {
-    color:#0000FF;
-    text-decoration:none; }
-  
-    a:hover { text-decoration:underline; }
-  
-#wrapper, #loginform {
-    margin:0 auto;
-    padding:10px;
-    background:#ffefd8;
-   /* background-image: linear-gradient(#ff5f5f, #ffffa0);*/
-    width:100%;
-    border:1px solid #ACD8F0;
-    border-radius: 5px;	}
-  
-#loginform { padding:18px; }
-  
-#loginform p { margin: 5px; }
-  
-#chatbox {
-    text-align:left;
-    margin:0 auto;
-    margin-bottom:25px;
-    padding:10px;
-    background:#fff;
-    height:38.5rem;
-    width:100%;
-    border:1px solid #ACD8F0;
-    overflow:auto; }
-
-#submit { width: 60px; }
-  
-.error { color: #ff0000; }
-  
-#menu { padding:12.5px 25px 12.5px 25px; }
-  
-.welcome { float:left; }
-  
-.logout { float:right; }
-  
-.msgln { margin:0 0 5px 0; }
-
-#enter{
-    margin-top: 10px;
+  font: 12px arial;
+  color: #222;
+  text-align: center;
+  padding: 0;
+  height: 100%;
 }
-#submitmsg{
-    margin-top: 10px;
-    font-weight: bold;
-    text-transform: uppercase;
+
+form,
+p,
+span {
+  margin: 0;
+  padding: 0;
+}
+
+input {
+  font: 12px arial;
+}
+
+a {
+  color: #0000ff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+#wrapper,
+#loginform {
+  margin: 0 auto;
+  padding: 10px;
+  background: #ffefd8;
+  /* background-image: linear-gradient(#ff5f5f, #ffffa0);*/
+  width: 100%;
+  /* height: 100vh; */
+  border: 1px solid #acd8f0;
+  border-radius: 5px;
+}
+#wrapper {
+  height: 100vh;
+}
+
+#loginform {
+  padding: 18px;
+}
+
+#loginform p {
+  margin: 5px;
+}
+
+#chatbox {
+  text-align: left;
+  margin: 0 auto;
+  margin-bottom: 25px;
+  padding: 10px;
+  background: #fff;
+  /* height: 38.5rem; */
+  height: 59vh;
+  width: 100%;
+  border: 1px solid #acd8f0;
+  overflow: auto;
+}
+
+#submit {
+  width: 60px;
+}
+
+.error {
+  color: #ff0000;
+}
+
+#menu {
+  padding: 12.5px 25px 12.5px 25px;
+}
+
+.welcome {
+  float: left;
+}
+
+.logout {
+  float: right;
+}
+
+.msgln {
+  margin: 0 0 5px 0;
+}
+
+#enter {
+  margin-top: 10px;
+}
+/* #submitmsg {
+  margin-top: 10px;
+  font-weight: bold;
+  text-transform: uppercase;
+} */
+#submitmsg {
+  float: right;
+}
+#clearmsg {
+  float: left;
+}
+#submitmsg,
+#clearmsg {
+  margin: 1rem;
+  font-weight: 400;
 }
