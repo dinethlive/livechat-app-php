@@ -4,10 +4,10 @@
   >
 </h1>
 <hr>
-<h2>Updated Verion</h2>
+<h2>Updated Version</h2>
 <h1>
   <a href="http://livechatappv1.dinadev.42web.io/"
-    >DEMO - Live Chat App V1(Click Here)</a
+    >DEMO - Live Chat App V1 (Click Here)</a
   >
 </h1>
 <hr />
