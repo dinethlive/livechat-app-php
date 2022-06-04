@@ -3,6 +3,13 @@
     >DEMO - Live Chat App (Click Here)</a
   >
 </h1>
+<hr>
+<h2>Updated Verion</h2>
+<h1>
+  <a href="http://livechatappv1.dinadev.42web.io/"
+    >DEMO - Live Chat App V1(Click Here)</a
+  >
+</h1>
 <hr />
 <h3>Summary</h3>
 I built this chat app for my daily use. I know this one is really simple. But I
